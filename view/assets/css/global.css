@@ -1,7 +1,16 @@
 body {
+  background-color: beige;
+  font-family: "roboto";
+}
 
+main {
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
 }
 
 a {
-    
+    text-decoration: none;
+    color: black;
 }
