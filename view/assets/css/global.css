@@ -1,6 +1,9 @@
+@import 'root.css';
+
 body {
-  background-color: beige;
+  background-color: var(--arg_hf);
   font-family: "roboto";
+  color: var(--arg_font);
 }
 
 main {
@@ -8,6 +11,7 @@ main {
 
     display: flex;
     justify-content: center;
+    background-color: var(--arg_body);
 }
 
 a {
