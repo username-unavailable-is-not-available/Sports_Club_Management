@@ -1,14 +1,14 @@
-<div class="login" id="loginForm">
-    <form action="">
-        <h2>Welcome to Sports Club Management</h2>
+<div class="container-card" id="loginForm">
+    <form method="post" onsubmit="return logValidation()">
+        <h2>Login</h2><br><br><br><br><br>
         <table>
             <tr>
                 <th>Email</th>
-                <td><input type="text"></td>
+                <td><input type="text" id="email"></td>
             </tr>
             <tr>
                 <th>Password</th>
-                <td><input type="text"></td>
+                <td><input type="password" id="password"></td>
             </tr>
         </table><br><br>
         <div class="xx12">
@@ -22,13 +22,14 @@
             </div>
         </div><br><br>
         <div class="btnArea">
-            <input class="loginBtn" type="button" name="login" value="Login">
+            <input class="submitBtn" type="submit" name="login" value="Login">
         </div>
     </form>
 </div>
 
-<div class="join" id="joinForm">
-    <form action="">
+<div class="container-card" id="joinForm">
+    <form method="post" onsubmit="return regValidation()">
+        <h2>Join</h2><br><br>
         <table>
             <tr>
                 <th>Name</th>
@@ -58,6 +59,9 @@
                 <th>Date Of Birth</th>
                 <td><input type="text"></td>
             </tr>
-        </table>
+        </table><br><br>
+        <div class="btnArea">
+            <input class="submitBtn" type="submit" name="submit" value="Submit">
+        </div>
     </form>
 </div>

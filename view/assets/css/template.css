@@ -14,11 +14,19 @@ footer {
   padding: 5px;
 }
 
-.header-link {
-    font-size: 16px;
+.header-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 5rem;
+  padding: 5px;
 }
 
-.header-link:hover {
+.btn-link {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-link:hover {
     opacity: 0.3;
     transition: 500ms;
 }
@@ -29,10 +37,14 @@ footer {
     padding: 20px;
 }
 
-.loginBtn {
+.submitBtn {
     height: 50px;
     width: 100px;
     font-size: 15px;
     background-color: indianred;
     border-radius: 5px;
+}
+
+.submitBtn:hover {
+  cursor: pointer;
 }

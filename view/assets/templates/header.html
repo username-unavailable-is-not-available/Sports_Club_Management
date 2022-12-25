@@ -8,14 +8,15 @@
     <title>Home</title>
     <link rel="stylesheet" href="view/assets/css/style.css" />
     <script src="view/assets/js/content.js"></script>
+    <script src="view/assets/js/validation.js"></script>
   </head>
   <body>
 
     <header>
       <h1>SPORTS CLUB</h1>
 
-      <div>
-        <a class="header-link" id="joinLink" href="">Join</a>
-        <a class="header-link" id="loginLink" href="">Login</a>
+      <div class="header-btn">
+        <div class="btn-link" id="joinLink" onclick="contentView('joinLink')">Join</div>
+        <div class="btn-link" id="loginLink" onclick="contentView('loginLink')">Login</div>
       </div>
     </header>
