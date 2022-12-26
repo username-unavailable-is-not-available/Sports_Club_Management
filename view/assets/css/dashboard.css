@@ -1,0 +1,23 @@
+@import 'root.css';
+
+.club-user, .fan-user {
+    padding: 10px;
+
+    width: 100rem;
+    height: 20rem;
+
+    border: 1px solid var(--font);
+}
+
+.x, .y  {
+    padding: 10px;
+    text-align: left;
+}
+
+.x {
+    background-color: var(--arg_hf);
+}
+
+.y {
+    border-bottom: 1px solid var(--arg_font);
+}

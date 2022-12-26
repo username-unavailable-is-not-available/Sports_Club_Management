@@ -1,37 +1,67 @@
 <?php include('../view/assets/templates/dashboard.head.html');?>
 
-<hr>
+<hr />
 
 <main>
-    <div>
-        <div class="user-list">
-            <h4>USER LIST</h4>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Position</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Hello</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Name</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Name</th>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
+  <div>
+    <div class="club-user">
+      <h3>CLUB MANAGER</h3>
+      <table>
+        <tr>
+          <th class="x">Full Name</th>
+          <th class="x">Join Date</th>
+          <th class="x">Salary</th>
+          <th class="x">Update</th>
+        </tr>
+        
+        <?php include('../model/connect.php');?>
+
+      </table>
     </div>
+
+    <div class="club-user" style="display: none;">
+      <h4>PLAYER</h4>
+      <table>
+        <tr>
+          <th class="x">Full Name</th>
+          <th class="x">Nationality</th>
+          <th class="x">Join Date</th>
+          <th class="x">Salary</th>
+        </tr>
+        <tr>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="fan-user" style="display: none;">
+      <h4>CLUB MEMBERSHIP</h4>
+      <table>
+        <tr>
+          <th class="x">Full Name</th>
+          <th class="x">Phone</th>
+          <th class="x">Email</th>
+          <th class="x">Date Of Birth</th>
+          <th class="x">Subscription ID</th>
+          <th class="x">Paid Status</th>
+        </tr>
+        <tr>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+          <td class="y"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </main>
 
-<hr>
+<hr />
 
 <?php include('../view/assets/templates/footer.html');?>
