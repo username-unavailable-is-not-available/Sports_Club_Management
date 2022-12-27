@@ -20,4 +20,5 @@
 
 .y {
     border-bottom: 1px solid var(--arg_font);
+    font-family: 'jetbrains mono';
 }
